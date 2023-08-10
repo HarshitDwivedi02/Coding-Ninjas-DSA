@@ -15,13 +15,7 @@ void solve(stack<int>&inputStack, int count , int size){
    solve(inputStack , count+1 , size);
 
    inputStack.push(num);
-
-   
-
 }
-
-
-
 void deleteMiddle(stack<int>&inputStack, int N){
 	
    // Write your code here
